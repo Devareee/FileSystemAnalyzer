@@ -41,6 +41,8 @@ python3 main.py
 
 - **_lfi_**: Large Files Identification. Identifies and lists files above a `size` threshold. Displays all the large files and their sizes.
 
+- **_exit_**: Exit the program.
+
 - **_help_**: Help command to display other commands.
 
 ### Test Cases

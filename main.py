@@ -59,12 +59,16 @@ def prompt():
         elif command[0] == 'lfi' and len(command) == 1:
             fsa.large_files_identification(dir, size)
 
+        # command to finish the program
+        elif command[0] == 'exit' and len(command) == 1:
+            return
+
         # help command to display other commands
         elif command[0] == 'help' and len(command) == 1:
             print('dir <your/path/to/dir> - Change directory for analysis\nsize - Current size threshold (MB)\nsize'
                   ' <new_size> - Change size threshold (MB)\nftc - File Type Categorization\n\t--full - print file '
                   'names\nsa - Size Analysis\n\t--full - print file names\nfpr - File Permissions Report\nlfi - '
-                  'Large Files Identification')
+                  'Large Files Identification\nexit - Exit the program')
 
         # great error handling :)
         else:
