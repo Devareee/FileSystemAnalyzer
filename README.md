@@ -1,6 +1,6 @@
 # File System Analyzer
 
-## A command-line tool that analyzes and reports on the file system structure and usage on a Linux system.
+## A command-line tool that analyzes and reports on the file system structure and usage on a Linux or Windows system.
 
 The tool is able to traverse through a specified directory recursively and classify files into categories (executable, image, text, archives, sound, video, other) based on their extensions. It can calculate and display the total size for each file type category. Also the tool is able to generate a report of files with unusual permission settings (world-writable files) and identify and list files above a certain size threshold.
 
